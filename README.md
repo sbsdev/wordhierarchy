@@ -47,6 +47,26 @@ External Dependendencies
 - https://github.com/bwagner/interval-tree as forked from https://github.com/dyoo/interval-tree
 - https://github.com/bwagner/permutation (for tests only)
 
+Build
+-----
+
+```
+mvn -B package
+```
+
+Release
+-------
+
+```
+mvn release:prepare
+```
+
+Perform a release without deploying. The deploy step is done in a gh action.
+
+```
+mvn release:perform -Darguments="-Dmaven.deploy.skip=true"
+```
+
 Authors
 -------
 
