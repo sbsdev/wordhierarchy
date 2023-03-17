@@ -36,7 +36,16 @@
     </dependency>
   </dependencies>
 
-    <distributionManagement>
+  <!-- Some dependencies are in github repositories -->
+  <repositories>
+    <repository>
+      <id>github</id>
+      <name>GitHub Packages</name>
+      <url>https://maven.pkg.github.com/sbsdev/*</url>
+    </repository>
+  </repositories>
+
+  <distributionManagement>
     <repository>
       <id>github</id>
       <name>GitHub Packages</name>
