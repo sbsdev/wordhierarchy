@@ -5,14 +5,14 @@
 
   <groupId>net.xmlizer</groupId>
   <artifactId>wordhierarchy</artifactId>
-  <version>1.2-SNAPSHOT</version>
+  <version>1.2</version>
 
   <name>wordhierarchy</name>
   <url>https://github.com/sbsdev/wordhierarchy</url>
 
   <scm>
     <developerConnection>scm:git:git@github.com:sbsdev/wordhierarchy.git</developerConnection>
-    <tag>HEAD</tag>
+    <tag>v1.2</tag>
   </scm>
 
   <properties>
