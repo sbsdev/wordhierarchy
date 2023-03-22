@@ -52,7 +52,7 @@ mvn -B package
 mvn release:prepare
 ```
 
-Perform a release without deploying. The deploy step is done in a gh action.
+Perform a release without deploying.
 
 ```
 mvn release:perform -Darguments="-Dmaven.deploy.skip=true"
