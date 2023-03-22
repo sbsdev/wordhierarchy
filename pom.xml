@@ -64,23 +64,6 @@
     </dependency>
   </dependencies>
 
-  <!-- Some dependencies are in github repositories -->
-  <repositories>
-    <repository>
-      <id>github</id>
-      <name>GitHub Packages</name>
-      <url>https://maven.pkg.github.com/sbsdev/permutation</url>
-    </repository>
-  </repositories>
-
-  <distributionManagement>
-    <repository>
-      <id>github</id>
-      <name>GitHub Packages</name>
-      <url>https://maven.pkg.github.com/sbsdev/wordhierarchy</url>
-    </repository>
-  </distributionManagement>
-
   <build>
     <plugins>
       <plugin>
