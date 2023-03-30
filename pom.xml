@@ -8,6 +8,9 @@
   <version>1.4-SNAPSHOT</version>
 
   <name>wordhierarchy</name>
+  <description>A word hierarchy builder. Builds a tree out of a set of
+  words which can then be navigated by a WordProcessor to generate
+  Regexps that match any of the words in the given set</description>
   <url>https://github.com/sbsdev/wordhierarchy</url>
 
   <properties>
