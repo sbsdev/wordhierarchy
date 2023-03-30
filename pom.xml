@@ -51,7 +51,7 @@
     <dependency>
       <groupId>ch.sbs.preptools</groupId>
       <artifactId>permutation</artifactId>
-      <version>1.5</version>
+      <version>1.6</version>
       <scope>test</scope>
     </dependency>
     <dependency>
