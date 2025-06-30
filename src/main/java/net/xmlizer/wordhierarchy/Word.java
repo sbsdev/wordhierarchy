@@ -24,7 +24,7 @@ import java.util.Set;
  * 
  * You should have received a copy of the GNU Lesser General Public
  * License along with this program. If not, see
- * <http://www.gnu.org/licenses/>.
+ * {@literal <http://www.gnu.org/licenses/>}.
  */
 
 public class Word implements Comparable<Word> {
@@ -162,7 +162,7 @@ public class Word implements Comparable<Word> {
 
 	/**
 	 * Returns collection as a sorted list.
-	 * see {@linkplain http://stackoverflow.com/a/740351/642750}
+	 * see {@see http://stackoverflow.com/a/740351/642750}
 	 * 
 	 * @param <T>
 	 *            parameterization of collection to sort
